@@ -11,13 +11,16 @@ green='\033[92m'
 clear
 sleep 1.5
 echo -e "$default"
-apt install python
-apt install python2 
-apt install pip
-apt install pip2
+cd ~
+sudo apt install python3
+## sudo apt install git --- for future possibility use
+## sudo apt install pipx --- for future possibility use
+## apt install python2 
+sudo apt install pip
+## apt install pip2
 pip install requests
-pip2 install requests
-cd
-cd
+## pip2 install requests
+cd ~
+cd ~
 cd AllHackingTools
-python2 src/InstallMenu.py
+python3 src/InstallMenu.py
